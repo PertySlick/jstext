@@ -46,13 +46,34 @@
           Enter a string value and click "Count Bs".  Results are displayed at
           the end of the line.
           <br />
-          <input type="text" id="countBs" />
+          <input type="text" id="countBs" placeholder="String" />
           <button onClick="document.getElementById('results1').
             innerHTML=countBs(document.getElementById('countBs').
             value);">
             Count Bs
           </button>
-          Results: <span id="results1"></span>
+          Results: <span id="results1">0</span>
+        </li>
+      </ul>
+    <!-- Exercise #4 -->
+    <li>countChar</li>
+      <ul>
+        <li>
+          Write a function that counts all of a user specified character from
+          a user-provided string.
+        </li>
+        <li>
+          Enter a string value, enter a character, and click "Count Characters".
+          Results are displayed at the end of the line.
+          <br />
+          <input type="text" id="countChars" placeholder="String" />
+          <input type="text" id="char" maxlength="1" placeholder="Character" />
+          <button onClick="document.getElementById('results2').
+            innerHTML=countChar(document.getElementById('countChars').
+            value, document.getElementById('char').value);">
+            Count Characters
+          </button>
+          Results: <span id="results2">0</span>
         </li>
       </ul>
   </ol>
