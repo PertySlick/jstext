@@ -6,4 +6,4 @@ This is a collection of JavaScript solutions to text book exercises found in **_
 
 The following is a list of the class assignments with solutions located in this repository:
 
-- Intro to JavaScript Assignment  [readme](intro_js.md) / [solution](intro.js)
+- Intro to JavaScript Assignment  [readme](intro_js.md) / [solution](intro.js) / [demo](http://troush.greenrivertech.net/328/jstext)
