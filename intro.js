@@ -59,3 +59,10 @@ function countChar(string, character) {
   
   return count;
 }
+
+
+// Rewrite a countBs() so that it uses countChar()
+
+function countBs2(string) {
+  return countChar(string, 'B');
+}

@@ -2,6 +2,8 @@
 ## Green River College IT328 Full Stack Web Development
 ### Assignment: Intro JavaScript Assignment
 
+[Solution](intro.js) / [Demo](http://troush.greenrivertech.net/328/jstext/intro_js.html)
+
 Assignment description, tasks, and requirments:
 
 After reading chapters 1-3 in Eloquent JavaScript, perform each of the following steps. Commit your changes to GitHub _after each step_.
