@@ -35,3 +35,14 @@ function fizzBuzz2() {
     else console.log(i);
   }
 }
+
+// Write a function that counts all the "B"s in a user-provided string
+
+function countBs(string) {
+  var count = 0;
+  for (var i = 0; i < string.length; i++) {
+    if (string.charAt(i) === "B")  count++;
+  }
+  
+  return count;
+}

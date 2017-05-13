@@ -7,6 +7,7 @@
 </head>
 <body>
   <ol>
+    <!-- Exercise #1 -->
     <li>Print "Introduction to JavaScript" to the console window</li>
     <ul>
       <li>
@@ -18,6 +19,7 @@
         to see it in the console again.
       </li>
     </ul>
+    <!-- Exercise #2 -->
     <li>FizzBuzz</li>
     <ul>
       <li>
@@ -34,6 +36,25 @@
         <button onClick="fizzBuzz2();">FizzBuzz 2</button>
       </li>
     </ul>
+    <!-- Exercise #3 -->
+    <li>countBs</li>
+      <ul>
+        <li>
+          Write a function that counts all "B"s from a user-provided string.
+        </li>
+        <li>
+          Enter a string value and click "Count Bs".  Results are displayed at
+          the end of the line.
+          <br />
+          <input type="text" id="countBs" />
+          <button onClick="document.getElementById('results1').
+            innerHTML=countBs(document.getElementById('countBs').
+            value);">
+            Count Bs
+          </button>
+          Results: <span id="results1"></span>
+        </li>
+      </ul>
   </ol>
   
 </body>
